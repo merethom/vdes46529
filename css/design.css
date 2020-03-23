@@ -124,6 +124,22 @@ i {
     .videoContent .video iframe {
       border-radius: 0.3rem; }
 
+.youtubeVideo {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 1.5rem; }
+  .youtubeVideo iframe,
+  .youtubeVideo object,
+  .youtubeVideo embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
 footer {
   padding: 3rem;
   margin-top: 10rem;
