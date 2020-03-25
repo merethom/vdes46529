@@ -11,6 +11,9 @@ html {
   scroll-behavior: smooth;
   line-height: 1.5; }
 
+body {
+  min-height: 100vh; }
+
 #main {
   width: 60%;
   margin: 0 auto; }
@@ -146,6 +149,16 @@ footer {
   font-size: 0.75rem;
   text-align: center;
   color: #ba00e5; }
+
+.table {
+  background: #fff;
+  border-radius: 0.3rem;
+  padding: 1.5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem; }
 
 @media only screen and (max-width: 850px) {
   #main {
