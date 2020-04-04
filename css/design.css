@@ -43,6 +43,14 @@ p {
   font-size: 1.1rem;
   margin-bottom: 0.5rem; }
 
+span {
+  font-family: 'Ariata Text W05 Medium', Georgia, serif;
+  text-decoration: none;
+  -webkit-transition: all 200ms;
+  -o-transition: all 200ms;
+  transition: all 200ms;
+  color: #5c00d2; }
+
 a {
   font-family: 'Ariata Text W05 Medium', Georgia, serif;
   text-decoration: none;
